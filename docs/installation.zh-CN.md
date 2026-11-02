@@ -2,12 +2,12 @@
 
 [English](installation.md) · **简体中文** · [返回首页](../README.zh-CN.md)
 
-从 [1.0.0 发布页](https://github.com/1363306384/SoundKey/releases/tag/v1.0.0)下载安装包。发布附件提供 SHA-256 校验文件，可用于核对下载完整性。
+从 [1.0.1 发布页](https://github.com/1363306384/SoundKey/releases/tag/v1.0.1)下载安装包。发布附件提供 SHA-256 校验文件，可用于核对下载完整性。
 
 | 平台 | 安装包 | 系统要求 |
 | --- | --- | --- |
-| Mac | `SoundKey-1.0.0-Mac-arm64.dmg` | Apple Silicon，macOS 13 或更高版本 |
-| Windows | `SoundKey-1.0.0-windows-x64-Setup.exe` | Windows 10 或 11，x64 |
+| Mac | `SoundKey-1.0.1-Mac-arm64.dmg` | Apple Silicon，macOS 13 或更高版本 |
+| Windows | `SoundKey-1.0.1-windows-x64-Setup.exe` | Windows 10 或 11，x64 |
 
 ## Mac
 
@@ -34,17 +34,23 @@
 
 系统开关已开启时，当前进程仍可能尚未获得有效授权。如果 SoundKey 继续提示输入监控尚未生效，请完全退出应用，重新打开「应用程序」中的版本，再检查一次。避免同时运行下载目录或其他磁盘映像里的旧副本。
 
-安装包与权限恢复逻辑已完成本地检查；另一台 macOS 15.2 电脑的首次授权「退出并重新打开」完整流程尚未验证。
+另一台 macOS 15.2 电脑首次授权时的「退出并重新打开」完整流程尚未验证。本次更新范围见[版本说明](releases/1.0.1.zh-CN.md)。
 
 ## Windows
 
 1. 如果 SoundKey 正在运行，先退出。
-2. 运行 **SoundKey-1.0.0-windows-x64-Setup.exe**。
+2. 运行 **SoundKey-1.0.1-windows-x64-Setup.exe**。
 3. 按安装器提示完成安装，再从桌面或开始菜单快捷方式打开 SoundKey。
 
-安装包内置所需 .NET 运行时和导入工具，按当前用户安装。应用和安装器**尚无 Authenticode 发行签名**，Windows 可能显示未知发布者或 SmartScreen 提示。请先核对下载来源与校验值，再决定是否继续。
+安装与卸载向导的按钮、提示和快捷方式名称统一使用英文。安装后的应用仍可在设置中切换英文和中文。安装包内置所需 .NET 运行时和导入工具，按当前用户安装。升级时会把已知旧版中文快捷方式替换为英文 **SoundKey** 与 **Uninstall SoundKey** 入口，保留音乐、分组、绑定和设置。
 
-Windows 已通过构建、业务逻辑与安装包完整性检查；原生 Windows 安装、音频、界面和全局键盘监听仍待实机验证。
+应用和安装器仍未使用 Authenticode 发行签名，Windows 可能显示未知发布者或 SmartScreen 提示。请先核对下载来源与校验值，再决定是否继续。已在一台 Windows 电脑检查英文欢迎、目录、安装和完成页面，安装后可启动，已有曲库、绑定和音量设置得到保留；同时完成了代表性的界面、语言、搜索、播放控制和后台快捷键检查。这不代表已经验证音质、真实下载、完整卸载、旧快捷方式迁移，或所有支持的 Windows／DPI 组合，详见[版本验证范围](releases/1.0.1.zh-CN.md#验证范围)。
+
+### Windows 可以签名吗？
+
+可以。Windows 发行使用受信任证书机构提供的 Authenticode 代码签名身份，或符合资格并通过身份核验的 **Microsoft Artifact Signing** 账户。后者需要付费 Azure 订阅，并有国家／地区及个人／组织资格限制。Apple 开发证书不能用于 Windows；SoundKey 1.0.1 目前尚未配置 Windows 发行签名身份。详见 [Microsoft 签名前提](https://learn.microsoft.com/en-us/azure/artifact-signing/quickstart)和[订阅要求](https://learn.microsoft.com/en-us/azure/artifact-signing/faq)。
+
+受信任签名可以标识经过核验的发行人，并验证文件完整性，但不保证新版本立即免除 SmartScreen 提示；EV 签名也可能需要积累信誉。自签名不会让应用自动获得公众信任。详见 [Microsoft SmartScreen 说明](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation)。
 
 ## 更新、备份与卸载
 
