@@ -1,0 +1,24 @@
+SoundKey 1.0.0 — macOS third-party tool sources
+
+These upstream command-line tools are invoked as separate processes.
+Bundled tools: yt-dlp (standalone onedir), FFmpeg, and Deno.
+No standalone FFprobe executable is included in SoundKey 1.0.0.
+The macOS package narrows universal binaries to arm64 and adds code signatures.
+Upstream archive hashes identify the download, not the final signed installer.
+
+yt-dlp 2026.10.26
+Project: https://github.com/yt-dlp/yt-dlp/releases/tag/2026.10.26
+Archive: https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp_macos.zip
+Archive SHA256: 20d98fa608998eff87d1d35a6e9fb65e4b874639a6cc89addc19da3becde3ef1
+
+Deno 2.9.8
+Project: https://github.com/denoland/deno/releases/tag/v2.9.8
+
+FFmpeg 9.0.2 arm64 build
+Build: https://ffmpeg.martin-riedl.de/info/detail/macos/arm64/1789931890_9.0.2
+Build recipes: https://github.com/Martin-Riedl/ffmpeg-builds
+Source: https://github.com/FFmpeg/FFmpeg/tree/n9.0.2
+Source archive: https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz
+Configuration and library versions: ffmpeg-build-versions.txt and ffmpeg-UPSTREAM-README.txt
+
+License texts are included alongside this file.

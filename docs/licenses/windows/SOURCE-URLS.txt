@@ -1,0 +1,24 @@
+SoundKey 1.0.0 — Windows third-party tool sources
+
+These upstream command-line tools are invoked as separate processes.
+Bundled tools: yt-dlp (standalone onedir), FFmpeg, and Deno.
+No standalone FFprobe executable is included in SoundKey 1.0.0.
+Original upstream executable bytes are retained; the _internal folder accompanies yt-dlp.
+Upstream archive hashes identify the download, not the complete SoundKey installer.
+
+yt-dlp 2026.10.26
+Project: https://github.com/yt-dlp/yt-dlp/releases/tag/2026.10.26
+Archive: https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp_win.zip
+Archive SHA256: fd51b212cf8380c7a52ee08c0d6be7f3c59b2f2c832eaf7b45acfae6eab57419
+
+Deno 2.9.8
+Project: https://github.com/denoland/deno/releases/tag/v2.9.8
+Archive: https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-pc-windows-msvc.zip
+
+FFmpeg 9.0.2 essentials (Gyan build)
+Project: https://www.gyan.dev/ffmpeg/builds/
+Archive: https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-essentials_build.7z
+Source: https://github.com/FFmpeg/FFmpeg/commit/946fcce07b
+Build configuration and libraries: ffmpeg-UPSTREAM-README.txt
+
+License texts are included alongside this file.

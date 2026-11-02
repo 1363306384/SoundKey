@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Installation guide / 安装指南
+    url: https://github.com/1363306384/SoundKey/blob/main/docs/installation.md
+    about: Read setup and troubleshooting instructions in English or Chinese.

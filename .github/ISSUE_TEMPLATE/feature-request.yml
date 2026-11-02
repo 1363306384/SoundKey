@@ -1,0 +1,18 @@
+name: Feature request / 功能建议
+description: Suggest an improvement to SoundKey. 提出使用体验或功能建议。
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Your use case / 使用场景
+      description: What are you trying to do? 你希望完成什么操作？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement / 改进建议
+    validations:
+      required: true

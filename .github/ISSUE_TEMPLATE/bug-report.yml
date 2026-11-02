@@ -1,0 +1,48 @@
+name: Bug report / 问题反馈
+description: Report an installation or usage problem. 支持中文和英文。
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve SoundKey. English and Chinese are welcome.
+        请先查看安装指南，上传截图或日志前移除个人信息、音乐链接和本地完整路径。
+        Please remove personal information, private links, and local paths before posting.
+  - type: input
+    id: version
+    attributes:
+      label: SoundKey version / 应用版本
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: OS and chip / 系统与芯片
+      placeholder: "macOS 15.2, M3 Max / Windows 11, x64"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened? / 遇到了什么问题？
+      description: Include the exact error message if available. 尽量提供完整报错。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      placeholder: "1. Open SoundKey ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / 预期结果
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or extra details / 截图或补充信息
+      description: Check for private information before attaching files. 上传前检查隐私信息。

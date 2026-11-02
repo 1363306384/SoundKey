@@ -1,0 +1,18 @@
+# This is a documentation and downloads repository. Application source stays private.
+.DS_Store
+/macOS/
+/macos/
+/windows/
+/packaging/
+/verification/
+/installers/
+/build/
+*.dmg
+*.exe
+*.app/
+*.pfx
+*.p12
+*.cer
+*.key
+*.mobileprovision
+.env*

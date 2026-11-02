@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
+  <title id="title">SoundKey — Your music. One keystroke away.</title>
+  <desc id="desc">An illustrated keyboard and waveform on a soft lavender background. Native macOS and Windows applications.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0" stop-color="#FCFCFF"/>
+      <stop offset="1" stop-color="#F1EEFC"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0.25" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#5766FC"/>
+      <stop offset="1" stop-color="#383DB8"/>
+    </linearGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#8975E6"/>
+      <stop offset="1" stop-color="#6250C2"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#E7E0FC"/>
+      <stop offset="1" stop-color="#EEE9FC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="1438" height="478" rx="32" fill="url(#canvas)" stroke="#E9E6F3" stroke-width="2"/>
+  <circle cx="1125" cy="240" r="224" fill="url(#halo)"/>
+  <g transform="translate(73 47) scale(0.078125)">
+    <rect x="70" y="70" width="884" height="884" rx="202" fill="url(#brand)"/>
+    <rect x="214" y="305" width="596" height="449" rx="88" fill="#FFFFFF" fill-opacity="0.13" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="3"/>
+    <g fill="#FFFFFF">
+      <rect x="326" y="460" width="42" height="110" rx="21"/>
+      <rect x="404" y="410" width="42" height="210" rx="21"/>
+      <rect x="482" y="370" width="42" height="290" rx="21"/>
+      <rect x="560" y="430" width="42" height="170" rx="21"/>
+      <rect x="638" y="460" width="42" height="110" rx="21"/>
+      <rect x="380" y="664" width="264" height="34" rx="17" fill-opacity="0.75"/>
+    </g>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="171" y="106" fill="#292738" font-size="51" font-weight="700" letter-spacing="-1.9">SoundKey</text>
+    <text x="80" y="221" fill="#292738" font-size="55" font-weight="650" letter-spacing="-1.8">Your music.</text>
+    <text x="80" y="286" fill="#6852C5" font-size="55" font-weight="650" letter-spacing="-1.8">One keystroke away.</text>
+    <text x="82" y="331" fill="#6B697D" font-size="21">A native soundboard for macOS and Windows.</text>
+    <rect x="80" y="369" width="208" height="39" rx="19.5" fill="#FFFFFF" fill-opacity="0.85" stroke="#E4DFF2"/>
+    <circle cx="101" cy="388.5" r="4" fill="#7C66D7"/>
+    <text x="115" y="394" fill="#625D76" font-size="16" font-weight="550">macOS · Apple Silicon</text>
+    <rect x="299" y="369" width="170" height="39" rx="19.5" fill="#FFFFFF" fill-opacity="0.85" stroke="#E4DFF2"/>
+    <circle cx="320" cy="388.5" r="4" fill="#7C66D7"/>
+    <text x="334" y="394" fill="#625D76" font-size="16" font-weight="550">Windows · 64-bit</text>
+  </g>
+  <g>
+    <path d="M1021 219 C1021 182 1034 168 1060 168" fill="none" stroke="#B6A6EB" stroke-width="2" stroke-dasharray="4 7" stroke-linecap="round"/>
+    <rect x="1053" y="88" width="188" height="106" rx="23" fill="#D9CFF5" fill-opacity="0.35"/>
+    <rect x="1053" y="81" width="188" height="106" rx="23" fill="#FFFFFF" stroke="#E2DAF3" stroke-width="1.5"/>
+    <g fill="#7B65D6">
+      <rect x="1079" y="123" width="11" height="22" rx="5.5"/>
+      <rect x="1099" y="113" width="11" height="42" rx="5.5"/>
+      <rect x="1119" y="104" width="11" height="60" rx="5.5"/>
+      <rect x="1139" y="98" width="11" height="72" rx="5.5"/>
+      <rect x="1159" y="107" width="11" height="54" rx="5.5"/>
+      <rect x="1179" y="116" width="11" height="36" rx="5.5"/>
+      <rect x="1199" y="123" width="11" height="22" rx="5.5"/>
+    </g>
+    <rect x="861" y="225" width="466" height="192" rx="25" fill="#D9D0F0" fill-opacity="0.4"/>
+    <rect x="861" y="214" width="466" height="192" rx="25" fill="#FFFFFF" stroke="#DED8ED" stroke-width="1.5"/>
+    <g fill="#F7F5FC" stroke="#E7E2F1" stroke-width="1.5">
+      <rect x="884" y="237" width="58" height="49" rx="11"/>
+      <rect x="956" y="237" width="58" height="49" rx="11"/>
+      <rect x="1100" y="237" width="58" height="49" rx="11"/>
+      <rect x="1172" y="237" width="58" height="49" rx="11"/>
+      <rect x="1244" y="237" width="58" height="49" rx="11"/>
+      <rect x="900" y="300" width="58" height="49" rx="11"/>
+      <rect x="972" y="300" width="58" height="49" rx="11"/>
+      <rect x="1044" y="300" width="58" height="49" rx="11"/>
+      <rect x="1116" y="300" width="58" height="49" rx="11"/>
+      <rect x="1188" y="300" width="98" height="49" rx="11"/>
+      <rect x="982" y="363" width="224" height="20" rx="7"/>
+    </g>
+    <rect x="1028" y="240" width="58" height="49" rx="11" fill="#57429F" fill-opacity="0.25"/>
+    <rect x="1028" y="233" width="58" height="49" rx="11" fill="url(#key)" stroke="#6952C3" stroke-width="1.5"/>
+    <path d="M1051 250 L1065 257.5 L1051 265 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/>
+    <g fill="#9991AB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="550" text-anchor="middle">
+      <text x="913" y="268">Q</text><text x="985" y="268">W</text>
+      <text x="1129" y="268">R</text><text x="1201" y="268">T</text><text x="1273" y="268">Y</text>
+      <text x="929" y="331">A</text><text x="1001" y="331">S</text><text x="1073" y="331">D</text>
+      <text x="1145" y="331">F</text><text x="1237" y="331">G</text>
+    </g>
+  </g>
+</svg>
