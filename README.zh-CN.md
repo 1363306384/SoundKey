@@ -33,7 +33,7 @@ SoundKey 把音乐、转场和简短音效集中到一个清晰的桌面曲库�
 | macOS | Apple Silicon（M 系列）· macOS 13 及以上 | [下载 .dmg](https://github.com/1363306384/SoundKey/releases/download/v1.0.0/SoundKey-1.0.0-Mac-arm64.dmg) |
 | Windows | Windows 10 及以上 · x64 | [下载 Setup.exe](https://github.com/1363306384/SoundKey/releases/download/v1.0.0/SoundKey-1.0.0-windows-x64-Setup.exe) |
 
-**当前签名状态：**Mac 应用使用开发签名，**尚未公证**；Windows 安装包**未签名**。安装时可能需要手动允许，请先阅读[安装指南](docs/installation.zh-CN.md)。
+<strong>当前签名状态：</strong>Mac 应用使用开发签名，**尚未公证**；Windows 安装包**未签名**。安装时可能需要手动允许，请先阅读[安装指南](docs/installation.zh-CN.md)。
 
 Mac：打开磁盘映像，运行 **安装SoundKey.command**，输入 **INSTALL**，再完成系统安装器中的步骤。这个文件属于当前版本的安装流程，作用和备用操作见安装指南。安装后从「应用程序」打开 SoundKey。
 
@@ -79,4 +79,4 @@ Windows：先退出正在运行的 SoundKey，再运行 **Setup.exe**。
 
 ## 关于本仓库
 
-这里提供产品介绍、图片、使用文档及安装包。**不公开 SoundKey 程序源码。**第三方组件遵循各自许可证，详见[第三方声明](docs/third-party-notices.md)。
+这里提供产品介绍、图片、使用文档及安装包。<strong>不公开 SoundKey 程序源码。</strong>第三方组件遵循各自许可证，详见[第三方声明](docs/third-party-notices.md)。
