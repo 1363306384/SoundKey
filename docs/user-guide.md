@@ -7,7 +7,7 @@ SoundKey keeps music in groups and lets you start a track with a key or key comb
 ## Your first track
 
 1. Click **Import Local Music** and choose an audio file. MP3, M4A and WAV are good starting points; other formats depend on the platform's audio support.
-2. Click a row to select it, then press the bottom **Play** button. The small play button beside a track starts it directly.
+2. Click a row to select it; double-click to play. The bottom player keeps showing and controlling the most recently played track independently of selection. The small play button beside a track starts it directly.
 3. Click **Set Shortcut**, press your chosen key or combination, and save it.
 4. Keep **Music Shortcut Switch** enabled. On Mac, complete [Input Monitoring setup](installation.md#enable-shortcuts-in-other-apps) to use the binding while another app is in front.
 
@@ -32,6 +32,18 @@ The pause shortcut does not start playback from idle. If a track already uses M,
 Click the playback-mode button to cycle through its three modes. Playback is limited to the range you set for that track, if any.
 
 Shortcut capture, text editing and open dialogs can temporarily suspend music-key handling so your typing does not trigger a track. Close the dialog before testing playback keys. Pausing the music shortcut switch does not disable mouse playback.
+
+## Shortcut overview
+
+Open **Library → Shortcut Overview** to review the selected group's track bindings and the global Pause / Resume shortcut. Edit or clear a binding, or choose **Locate** to return to the main list.
+
+The overview's group picker only changes what you browse. Editing another group's shortcuts keeps the active group and playback. Locate switches the main library group and follows the existing group-switch playback behavior.
+
+The full keyboard stays fixed above a fixed table header. Only the binding list scrolls.
+
+The keyboard shows assigned keys in blue and unassigned keys in gray for the selected modifiers. The Mac diagram follows a compact ANSI Apple keyboard, including a wide space bar, Fn / Globe, modifiers and arrow keys. Click its Control, Option, Shift or Command keys to inspect combinations. Windows uses modifier checkboxes. Fn / Globe and Touch ID are shown as system keys and cannot be assigned on their own. Hover to see a track name, click an assigned key to edit or clear it, or click an unassigned key to choose a track or the pause action. Bindings outside the schematic keyboard remain visible in the list. Music shortcuts are suspended while the overview is open; closing it preserves the original master switch state.
+
+Occupancy reflects SoundKey assignments only. It does not detect or guarantee availability in other apps or the operating system.
 
 ## Organize groups
 

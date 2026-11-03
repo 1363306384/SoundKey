@@ -26,12 +26,12 @@ SoundKey 把音乐、转场和简短音效集中到一个清晰的桌面曲库�
 
 *图片为 macOS 界面，使用虚构的示例曲目；安装包不附带示例音频。Windows 版采用相同的内容布局与使用流程，文字和窗口控件保留 Windows 原生表现。*
 
-## 下载 1.0.2
+## 下载 1.0.3
 
 | 平台 | 系统要求 | 安装包 |
 | --- | --- | --- |
-| macOS | Apple Silicon（M 系列）· macOS 13 及以上 | [下载 .dmg](https://github.com/1363306384/SoundKey/releases/download/v1.0.2/SoundKey-1.0.2-Mac-arm64.dmg) |
-| Windows | Windows 10 及以上 · x64 | [下载 Setup.exe](https://github.com/1363306384/SoundKey/releases/download/v1.0.2/SoundKey-1.0.2-windows-x64-Setup.exe) |
+| macOS | Apple Silicon（M 系列）· macOS 13 及以上 | [下载 .dmg](https://github.com/1363306384/SoundKey/releases/download/v1.0.3/SoundKey-1.0.3-Mac-arm64.dmg) |
+| Windows | Windows 10 及以上 · x64 | [下载 Setup.exe](https://github.com/1363306384/SoundKey/releases/download/v1.0.3/SoundKey-1.0.3-windows-x64-Setup.exe) |
 
 <strong>当前签名状态：</strong>Mac 应用使用开发签名，**尚未公证**；Windows 安装包**未签名**。安装时可能需要手动允许，请先阅读[安装指南](docs/installation.zh-CN.md)。
 
@@ -39,7 +39,7 @@ Mac：打开磁盘映像，运行包内 **Install SoundKey.command**，输入 **
 
 Windows：先退出正在运行的 SoundKey，再运行 **Setup.exe**。安装与卸载向导使用英文，应用内仍可切换英文和中文。
 
-[版本说明](docs/releases/1.0.2.zh-CN.md) · [SHA-256 校验文件](https://github.com/1363306384/SoundKey/releases/download/v1.0.2/SHA256SUMS.txt)
+[版本说明](docs/releases/1.0.3.zh-CN.md) · [SHA-256 校验文件](https://github.com/1363306384/SoundKey/releases/download/v1.0.3/SHA256SUMS.txt)
 
 ## 常用功能
 
@@ -60,7 +60,7 @@ Windows：先退出正在运行的 SoundKey，再运行 **Setup.exe**。安装�
 ## 开始播放
 
 1. 点击「导入本地音乐」，选择音频文件。
-2. 单击音乐选中，再点击「播放」。主窗口中的空格键可播放所选音乐，或暂停、继续当前音乐。
+2. 单击音乐仅选中，双击播放；选中其他歌曲不会改变底部播放器。主窗口中的空格键可播放所选音乐，或暂停、继续当前音乐。
 3. 点击一首音乐的「设置快捷键」，录入希望使用的按键。
 4. Mac 上需要在其他软件中触发快捷键时，打开「设置 → 后台快捷键」，完成「输入监控」授权。系统要求时，请退出并重新打开 SoundKey。
 
@@ -76,7 +76,7 @@ Windows：先退出正在运行的 SoundKey，再运行 **Setup.exe**。安装�
 
 先查看[使用指南](docs/user-guide.zh-CN.md)和[安装问题排查](docs/installation.zh-CN.md)。仍有问题时，可[提交 Issue](https://github.com/1363306384/SoundKey/issues/new/choose)，说明系统版本、芯片或架构、SoundKey 版本及复现步骤。欢迎使用中文或英文反馈，发布截图和日志前请移除个人信息。
 
-SoundKey 1.0.2 在两端增加后台批量导入、可设置的暂停／继续快捷键和本地 MP4 转换，并以 Mac 为基准对齐 Windows 布局及对话框流程。系统窗口控件、字体、文件选择器、按键名称与权限设置保留各平台行为。自动检查与包体审计范围见[版本说明](docs/releases/1.0.2.zh-CN.md)；本次候选版的 Windows 原生实机验证，以及另一台 Mac 首次输入监控授权后的退出与重开流程仍未完成。
+SoundKey 1.0.3 在两端增加快捷键总览、固定完整键盘图和绑定管理，支持单击选中、双击播放，底部播放器跟随实际播放曲目；同时修复缺失文件移除及 Windows 按键优先级。自动检查与包体审计范围见[版本说明](docs/releases/1.0.3.zh-CN.md)。Windows 原生实机验证，以及另一台 Mac 首次输入监控授权后的退出与重开流程仍未完成。
 
 ## 关于本仓库
 
