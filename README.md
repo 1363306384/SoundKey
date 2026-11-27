@@ -26,12 +26,12 @@ SoundKey keeps music, transitions, and short sound cues in a focused desktop lib
 
 *macOS interface with fictional sample tracks. Demo audio is not included in the download. Windows follows the same content layout and workflow, with native Windows text and window controls.*
 
-## Download 1.0.3
+## Download 1.0.5
 
 | Platform | Requirements | Installer |
 | --- | --- | --- |
-| macOS | Apple Silicon · macOS 13 or later | [Download .dmg](https://github.com/1363306384/SoundKey/releases/download/v1.0.3/SoundKey-1.0.3-Mac-arm64.dmg) |
-| Windows | Windows 10 or later · x64 | [Download Setup.exe](https://github.com/1363306384/SoundKey/releases/download/v1.0.3/SoundKey-1.0.3-windows-x64-Setup.exe) |
+| macOS | Apple Silicon · macOS 13 or later | [Download .dmg](https://github.com/1363306384/SoundKey/releases/download/v1.0.5/SoundKey-1.0.5-Mac-arm64.dmg) |
+| Windows | Windows 10 or later · x64 | [Download Setup.exe](https://github.com/1363306384/SoundKey/releases/download/v1.0.5/SoundKey-1.0.5-windows-x64-Setup.exe) |
 
 **Current signing status:** the Mac app has a development signature and is **not notarized**; the Windows installer is **unsigned**. Manual system approval may be required. See the [installation guide](docs/installation.md) before installing on another computer.
 
@@ -39,7 +39,7 @@ On Mac, open the disk image, run the included **Install SoundKey.command**, type
 
 On Windows, quit any running copy of SoundKey and run **Setup.exe**. Setup and uninstall are in English; the app itself supports English and Chinese.
 
-[Release notes](docs/releases/1.0.3.md) · [SHA-256 checksums](https://github.com/1363306384/SoundKey/releases/download/v1.0.3/SHA256SUMS.txt)
+[Release notes](https://github.com/1363306384/SoundKey/releases/tag/v1.0.5) · [SHA-256 checksums](https://github.com/1363306384/SoundKey/releases/download/v1.0.5/SHA256SUMS.txt)
 
 ## A small set of useful controls
 
@@ -77,7 +77,7 @@ The app starts in English. Open **Settings → Language → 中文** to switch i
 
 Start with the [user guide](docs/user-guide.md) and [installation troubleshooting](docs/installation.md). If you still need help, [open an issue](https://github.com/1363306384/SoundKey/issues/new/choose) with your OS version, chip/architecture, SoundKey version, and steps to reproduce. English and Chinese reports are welcome. Remove personal information from screenshots and logs before posting.
 
-SoundKey 1.0.3 adds a shortcut overview with a fixed keyboard diagram, binding edits and track location on both platforms. Click to select, double-click to play; the bottom player follows actual playback independently of selection. It also fixes missing-file removal and Windows shortcut priority. See the [release notes](docs/releases/1.0.3.md) for validation scope. Native Windows testing and another Mac's first Input Monitoring grant/relaunch flow remain unverified.
+SoundKey 1.0.5 adds optional track transition fades. Update notices wait until playback and imports have finished and the main window is idle.
 
 ## About this repository
 
